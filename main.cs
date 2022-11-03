@@ -29,7 +29,7 @@ class Program
         area = (radius_a * radius_b) * PI;
 
         Console.WriteLine(" ");
-        Console.WriteLine("Your area will be: " + area.ToString("0.00"));
+        Console.WriteLine("Your area will be: " + area.ToString("0.00") + "cm²");
 
         Console.WriteLine("\nDone.");
     }
